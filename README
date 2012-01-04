@@ -1,0 +1,12 @@
+README
+======
+
+A collection of puredata externals.
+
+
+nanoktrl
+--------
+
+Outputs each slider value into one outlet (9 in total).
+For this to work, use CC values 1 to 9 in Korg Kontrol Editor 
+or modify appropriately the *route* object inside the patch.
