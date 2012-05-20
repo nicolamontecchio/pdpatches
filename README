@@ -1,12 +1,19 @@
 README
-======
+==========
 
-A collection of puredata externals.
+A collection of puredata patches, utilities and externals.
+
+faustxml2pd.py
+------------------
+
+Convert the output of an xml file produced by "faust -xml something.dsp" into a puredata patch.
+Requires python >= 2.7.	The script is still incomplete and has not been tested extensively.
 
 
 nanoktrl
---------
+----------
 
 Outputs each slider value into one outlet (9 in total).
 For this to work, use CC values 1 to 9 in Korg Kontrol Editor 
 or modify appropriately the *route* object inside the patch.
+
